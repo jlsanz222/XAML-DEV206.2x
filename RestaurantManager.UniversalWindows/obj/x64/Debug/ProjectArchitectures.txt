@@ -1,0 +1,2 @@
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x64

@@ -1,0 +1,34 @@
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pdb
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pri
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.dll
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.pdb
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\ResourceHandlingTask.state
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\priconfig.xml
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\priconfig.xml.intermediate
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\layout.resfiles
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\layout.resfiles.intermediate
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\resources.resfiles
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\resources.resfiles.intermediate
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\pri.resfiles
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\pri.resfiles.intermediate
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\qualifiers.txt
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pdb
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pri
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.dll
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.pdb
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\priconfig.xml
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\priconfig.xml.intermediate
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\layout.resfiles
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\layout.resfiles.intermediate
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\resources.resfiles
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\resources.resfiles.intermediate
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\pri.resfiles
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\pri.resfiles.intermediate
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\qualifiers.txt
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache
