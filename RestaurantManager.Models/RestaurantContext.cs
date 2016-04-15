@@ -44,6 +44,9 @@ namespace RestaurantManager.Models
             {
                 new Order { Complete = false, Expedite = true, SpecialRequests = "Allergic to Shellfish", Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.First() } },
                 new Order { Complete = false, Expedite = false, SpecialRequests = String.Empty, Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.Last(), this.StandardMenuItems.First() } },
+                new Order { Complete = false, Expedite = true, SpecialRequests = "Allergic to Shellfish", Table = this.Tables.First(), Items = new List<MenuItem> { this.StandardMenuItems.First() } },
+                new Order { Complete = false, Expedite = false, SpecialRequests = String.Empty, Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.Last(), this.StandardMenuItems.First(), this.StandardMenuItems.First(), this.StandardMenuItems.First(), this.StandardMenuItems[3], this.StandardMenuItems.First(), this.StandardMenuItems[2] } },
+                new Order { Complete = false, Expedite = false, SpecialRequests = String.Empty, Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.Last(), this.StandardMenuItems.First(), this.StandardMenuItems.First(), this.StandardMenuItems.First(), this.StandardMenuItems[3], this.StandardMenuItems.First(), this.StandardMenuItems[2] } },
             };
             
 

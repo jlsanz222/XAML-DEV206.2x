@@ -22,13 +22,13 @@
     <AppXManifest Include="K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-05T20:01:04.001</Modified>
+      <Modified>2016-04-15T09:42:15.419</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.UniversalWindows.exe">
       <PackagePath>entrypoint\RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-04-05T20:01:03.450</Modified>
+      <Modified>2016-04-15T09:42:13.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -444,7 +444,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
-      <Modified>2016-04-05T20:01:00.553</Modified>
+      <Modified>2016-04-14T11:37:32.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\Assets\LargeSquareLogo.png">
       <PackagePath>Assets\LargeSquareLogo.png</PackagePath>
@@ -473,7 +473,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
-      <Modified>2016-04-05T17:14:23.174</Modified>
+      <Modified>2016-04-15T09:42:13.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -481,11 +481,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-05T17:17:58.711</Modified>
+      <Modified>2016-04-15T09:42:15.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Core\RestaurantManager.UniversalWindows.exe">
       <PackagePath>RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-04-05T20:01:03.999</Modified>
+      <Modified>2016-04-15T09:42:15.416</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
