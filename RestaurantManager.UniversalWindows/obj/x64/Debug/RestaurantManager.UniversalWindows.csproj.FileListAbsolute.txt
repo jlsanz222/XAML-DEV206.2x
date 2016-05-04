@@ -10,6 +10,8 @@ K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\A
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Core\AppxManifest.xml
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Core\RestaurantManager.UniversalWindows.exe
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.UniversalWindows.build.appxrecipe
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Microsoft.Xaml.Interactions.dll
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Microsoft.Xaml.Interactivity.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\Microsoft.CSharp.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\System.Core.dll
@@ -113,7 +115,10 @@ K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\S
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\System.Xml.XDocument.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\System.Xml.XmlDocument.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\System.Xml.XmlSerializer.dll
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.Extensions.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.Models.dll
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.Extensions.pdb
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.Extensions.pri
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.Models.pdb
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\bin\x64\Debug\RestaurantManager.Models.pri
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\RestaurantManager.UniversalWindows.csprojResolveAssemblyReference.cache
@@ -191,6 +196,7 @@ K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\F
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\RestaurantManager.UniversalWindows.csproj.GenerateResource.Cache
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\priconfig.xml
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\priconfig.xml.intermediate
 K:\curso xaml\segundo\hwstart\RestaurantManager.UniversalWindows\obj\x64\Debug\layout.resfiles

@@ -31,4 +31,5 @@ K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\pri.resfiles.in
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\qualifiers.txt
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll.CodeAnalysisLog.xml
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll.lastcodeanalysissucceeded

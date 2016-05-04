@@ -4,12 +4,20 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:RestaurantManager.UniversalWindows"
     xmlns:models="using:RestaurantManager.Models"
+    xmlns:extensions="using:RestaurantManager.Extensions"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    
     <Page.DataContext>
         <models:ExpediteDataManager />
+
     </Page.DataContext>
+    <Page.Resources>
+        <extensions:BoolToColorConverter 
+	 	x:Key="BooleanToColorConverter" 
+		/>
+    </Page.Resources>
     <Page.TopAppBar>
         <AppBar>
             <AppBarButton x:ConnectionId='1' Label="Home"                       >
@@ -19,13 +27,78 @@
             </AppBarButton>
         </AppBar>
     </Page.TopAppBar>
+
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+	
+
         <Grid.RowDefinitions>
             <RowDefinition Height="0.05*"/>
             <RowDefinition Height="0.85*"/>
             <RowDefinition Height="0.10*"/>
         </Grid.RowDefinitions>
-        <GridView Grid.Row="1" ItemsSource="{Binding OrderItems}">
+        <GridView Grid.Row="1">
+
+
+
+
+            <ListBox ItemsSource="{Binding OrderItems}" 
+                      ScrollViewer.HorizontalScrollBarVisibility="Visible"  
+                      ScrollViewer.HorizontalScrollMode="Auto" >
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Horizontal" 
+                                                />
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <Grid Height="350" Width="200" Margin="20"  BorderBrush="Gray" Background="Gray">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="40" />
+                                <RowDefinition Height="60" />
+                                <RowDefinition Height="30" />
+
+                            </Grid.RowDefinitions>
+                            <ListView Grid.Row="0" ItemsSource="{Binding Items}" DisplayMemberPath="Title" Background="Black"  />
+
+                            <TextBlock Grid.Row="1" Text="{Binding Table.Description}" FontWeight="Bold" />
+                            <TextBlock Grid.Row="2" FontSize="16" >
+                            <Run>Special Notes:</Run>
+                            <LineBreak />
+                            <Run Text="{Binding SpecialRequests}"></Run>
+                            </TextBlock>
+
+                            <Border Grid.Row="3">
+                                <Border.Background>
+                                    <SolidColorBrush x:Name="StatusBrush">
+                                        <SolidColorBrush.Color>
+                                            <Binding Path="Expedite">
+                                                <Binding.Converter>
+                                                    <extensions:BoolToColorConverter TrueColor="Red" FalseColor="Transparent" />
+                                                </Binding.Converter>
+                                            </Binding>
+                                        </SolidColorBrush.Color>
+                                    </SolidColorBrush>
+                                </Border.Background>
+                                <Button Content="Delete" 
+                                        HorizontalAlignment="Center" 
+                                        VerticalAlignment="Bottom" 
+                                        FontSize="16"
+                                        />
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+
+
+
         </GridView>
         <Button Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" />
     </Grid>
