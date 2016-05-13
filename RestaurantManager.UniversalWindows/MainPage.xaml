@@ -27,7 +27,7 @@
         <extensions:RightClickWarnBehavior Message="{StaticResource RightClickMessage}" 
                                            Title="Credits" />
     </i:Interaction.Behaviors>
-    
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="0.40*" />
@@ -46,6 +46,6 @@
         <Button Content="Submit Order" HorizontalAlignment="Center" Grid.Row="2" 
                 Grid.Column="1" VerticalAlignment="Center" Click="OrderPage_Click"  
                 Template="{StaticResource ButtonTemplate}" />
-                
+
     </Grid>
 </Page>

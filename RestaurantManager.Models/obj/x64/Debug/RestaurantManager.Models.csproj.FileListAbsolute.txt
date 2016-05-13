@@ -1,7 +1,6 @@
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\x64\Debug\RestaurantManager.Models.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\x64\Debug\RestaurantManager.Models.pdb
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\bin\x64\Debug\RestaurantManager.Models.pri
-K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\RestaurantManager.Models.dll
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\RestaurantManager.Models.pdb
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\priconfig.xml
@@ -15,3 +14,4 @@ K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\pri.resfile
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\qualifiers.txt
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\qualifiers.txt.intermediate
 K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+K:\curso xaml\segundo\hwstart\RestaurantManager.Models\obj\x64\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache

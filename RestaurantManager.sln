@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj", "{15039095-DCCC-4AED-8757-C2DB14B96088}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -11,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Models", "RestaurantManager.Models\RestaurantManager.Models.csproj", "{7EA2B405-E454-4F0C-A8C3-D6BF3F814F5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Extensions", "RestaurantManager.Extensions\RestaurantManager.Extensions.csproj", "{4B0B98B0-BD1E-479A-81C8-FE37E2536A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.ViewModels", "RestaurantManager.ViewModels\RestaurantManager.ViewModels.csproj", "{226CD971-291D-4ABB-9C28-0453D7090042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +80,22 @@ Global
 		{4B0B98B0-BD1E-479A-81C8-FE37E2536A71}.Release|x64.Build.0 = Release|x64
 		{4B0B98B0-BD1E-479A-81C8-FE37E2536A71}.Release|x86.ActiveCfg = Release|x86
 		{4B0B98B0-BD1E-479A-81C8-FE37E2536A71}.Release|x86.Build.0 = Release|x86
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|ARM.ActiveCfg = Debug|ARM
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|ARM.Build.0 = Debug|ARM
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|x64.ActiveCfg = Debug|x64
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|x64.Build.0 = Debug|x64
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|x86.ActiveCfg = Debug|x86
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Debug|x86.Build.0 = Debug|x86
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|ARM.ActiveCfg = Release|ARM
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|ARM.Build.0 = Release|ARM
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|x64.ActiveCfg = Release|x64
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|x64.Build.0 = Release|x64
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|x86.ActiveCfg = Release|x86
+		{226CD971-291D-4ABB-9C28-0453D7090042}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
