@@ -21,6 +21,27 @@
                                   />
             </Border>
         </ControlTemplate>
+  
+
+        <Storyboard x:Name="SlideIn">
+
+            <DoubleAnimation Storyboard.TargetName="SlidingButton1"
+             Storyboard.TargetProperty="(Button.RenderTransform).(TranslateTransform.X)"
+             From="-200"
+             To="0"
+             Duration="0:0:3.5">
+            </DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="SlidingButton2"
+             Storyboard.TargetProperty="(Button.RenderTransform).(TranslateTransform.X)"
+             From="200"
+             To="0"
+             Duration="0:0:3.5">
+            </DoubleAnimation>
+
+        </Storyboard>
+
+
+
     </Page.Resources>
 
     <i:Interaction.Behaviors>
@@ -40,12 +61,19 @@
         </Grid.ColumnDefinitions>
         <TextBlock Text="Restaurant Manager" Style="{StaticResource HeaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
         <TextBlock Text="Internal Test Version" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
-        <Button Content="Go to Orders View" HorizontalAlignment="Center" Grid.Row="2" 
+        <Button x:Name="SlidingButton1" Content="Go to Orders View" HorizontalAlignment="Center" Grid.Row="2" 
                 Grid.Column="0" VerticalAlignment="Center" Click="ExpeditePage_Click" 
-                Template="{StaticResource ButtonTemplate}" />
-        <Button Content="Submit Order" HorizontalAlignment="Center" Grid.Row="2" 
+                Template="{StaticResource ButtonTemplate}" >
+            <Button.RenderTransform>
+                <TranslateTransform />
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="SlidingButton2" Content="Submit Order" HorizontalAlignment="Center" Grid.Row="2" 
                 Grid.Column="1" VerticalAlignment="Center" Click="OrderPage_Click"  
-                Template="{StaticResource ButtonTemplate}" />
-
+                Template="{StaticResource ButtonTemplate}" >
+            <Button.RenderTransform>
+                <TranslateTransform />
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Page>

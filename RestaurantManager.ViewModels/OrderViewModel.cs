@@ -47,8 +47,10 @@ namespace RestaurantManager.ViewModels
             */
             OnPropertyChanged("CurrentlySelectedMenuItems");
 
+            OnPropertyChanged("SpecialRequests");
+
         }
-               
+
 
         public List<MenuItem> MenuItems { get;  set; }
 
@@ -90,19 +92,19 @@ namespace RestaurantManager.ViewModels
             {
                 System.Diagnostics.Debug.WriteLine("SubmitOrder newOrder: --" + newOrder.ToString() + "--");
             } else      System.Diagnostics.Debug.WriteLine("SubmitOrder newOrder: --nulo--");
-
     */
     //      System.Diagnostics.Debug.WriteLine("SubmitOrder newOrder: --" + newOrder.ToString() + "--");
     //      System.Diagnostics.Debug.WriteLine("Before SubmitOrder OrderViewModel");
 
             Repository.Orders.Add(newOrder);
         
-    //      System.Diagnostics.Debug.WriteLine("After SubmitOrder OrderViewModel");
-    //      System.Diagnostics.Debug.WriteLine("SubmitOrder Orders: --" + Repository.Orders.Last().ToString() + "--");
-
-
+/*
+          System.Diagnostics.Debug.WriteLine("After SubmitOrder OrderViewModel");
+          System.Diagnostics.Debug.WriteLine("SubmitOrder Orders: --" + Repository.Orders.Last().ToString() + "--");
+          System.Diagnostics.Debug.WriteLine("SpecialRequests: --" + SpecialNotes + "--");
+            if (newOrder.SpecialRequests!=null)
+            System.Diagnostics.Debug.WriteLine("SpecialReques: --" + newOrder.SpecialRequests.ToString() + "--");
+*/
         }
-
-
     }
 }

@@ -15,6 +15,17 @@ namespace RestaurantManager.ViewModels
     {
         protected RestaurantContext Repository { get; private set; }
 
+        private bool _isLoading;
+        public bool IsLoading
+        {
+            get { return _isLoading; }
+            set {
+                _isLoading = value;
+                OnPropertyChanged("IsLoading");
+                }
+        }
+
+
         public ViewModel()
         {
             LoadData();
@@ -30,9 +41,10 @@ namespace RestaurantManager.ViewModels
  //           System.Diagnostics.Debug.WriteLine("Despues LoadData DataManager");
  
              **/
-          
+            IsLoading = true;
             this.Repository = await RestaurantContextFactory.GetRestaurantContextAsync();
             OnDataLoaded();
+            IsLoading = false;
         }
 
         protected abstract void OnDataLoaded();

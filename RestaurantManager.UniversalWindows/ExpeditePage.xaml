@@ -29,17 +29,15 @@
 
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-	
+
 
         <Grid.RowDefinitions>
             <RowDefinition Height="0.05*"/>
             <RowDefinition Height="0.85*"/>
             <RowDefinition Height="0.10*"/>
         </Grid.RowDefinitions>
+        <ProgressRing Grid.RowSpan="3"  Height="300" Width="300"  IsActive="{Binding IsLoading}"   />
         <GridView Grid.Row="1">
-
-
-
 
             <ListBox ItemsSource="{Binding OrderItems}" 
                       ScrollViewer.HorizontalScrollBarVisibility="Visible"  
@@ -62,8 +60,8 @@
                                 <RowDefinition Height="30" />
 
                             </Grid.RowDefinitions>
-                            <ListView Grid.Row="0" ItemsSource="{Binding Items}" DisplayMemberPath="Title" Background="Black"  />
 
+                            <ListView Grid.Row="0" ItemsSource="{Binding Items}" DisplayMemberPath="Title" Background="Black"  />
                             <TextBlock Grid.Row="1" Text="{Binding Table.Description}" FontWeight="Bold" />
                             <TextBlock Grid.Row="2" FontSize="16" >
                             <Run>Special Notes:</Run>
@@ -99,6 +97,7 @@
 
 
         </GridView>
+        
         <Button Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" />
     </Grid>
 </Page>
